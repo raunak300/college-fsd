@@ -1,0 +1,101 @@
+/* General page styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #233d4d; /* Dark Blue Background */
+    margin: 0;
+    padding: 0;
+    color: #f4f4f4; /* Zinc White Text */
+}
+
+/* Headings */
+h1 {
+    background-color: #f4f4f4; /* Zinc White Background */
+    color: #233d4d; /* Dark Blue Text */
+    font-size: 28px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 2px solid #233d4d; /* Dark Blue Border */
+}
+
+/* Form sections */
+form, .section {
+    background-color: #f4f4f4; /* Zinc White Background */
+    border: 2px solid #233d4d; /* Dark Blue Border */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    color: #333; /* Dark gray text for better contrast */
+}
+
+/* Labels and inputs */
+input[type="text"],
+input[type="number"] {
+    padding: 10px;
+    margin: 10px 5px;
+    border: 1px solid #7f8c8d; /* Medium gray border */
+    border-radius: 5px;
+    width: 150px;
+    font-size: 14px;
+    color: #333; /* Dark gray text */
+    background-color: #e0e0e0; /* Light gray input background */
+}
+
+button,
+input[type="submit"] {
+    background-color: #233d4d; /* Dark Blue Button */
+    color: #f4f4f4; /* Zinc White Text */
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #39566a; /* Darker Blue on Hover */
+}
+
+/* Table styling */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-size: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    background-color: #f4f4f4; /* Zinc White Table Background */
+    color: #333; /* Dark gray text */
+    border: 1px solid #233d4d; /* Dark Blue Table Border */
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd; /* Light gray border */
+}
+
+th {
+    background-color: #233d4d; /* Dark Blue Header */
+    color: #f4f4f4; /* Zinc White Text */
+}
+
+tr:nth-child(even) {
+    background-color: #e0e0e0; /* Light gray even rows */
+}
+
+tr:nth-child(odd) {
+    background-color: #f9f9f9; /* Very light gray odd rows */
+}
+
+/* Section titles */
+.section h2 {
+    margin-top: 0;
+    color: #233d4d; /* Dark Blue Section Title */
+}
